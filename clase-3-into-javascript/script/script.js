@@ -112,11 +112,11 @@ console.log(texto.charAt(4)); // Imprime "S"
 
 let text = "JavaScrpt es genial";
 
-console.log(text.indexOf("es")); // Imprime 11
+console.log(text.indexOf("es")); // Imprime 11  Devuelve el índice de la primera aparición de un carácter o subcadena.
 
-console.log(text.lastIndexOf("a")); // Imprime 3
+console.log(text.lastIndexOf("a")); // Imprime 3  Devuelve el índice de la última aparición de un carácter o subcadena.
 
-console.log(text.includes("genial")); // Imprime true
+console.log(text.includes("genial")); // Imprime true  Verifica si una cadena contiene una subcadena.
 
 //Metodos de reemplazo
 
