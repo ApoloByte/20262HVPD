@@ -1,3 +1,4 @@
+//Parte 1
 //Number
 let edad = 27;
 console.log("edad: ", edad); //imprimira la edad 27
@@ -24,7 +25,7 @@ tildes invertidas en lugar de comillas */
 const mensaje = `Hola, me llamo ${nombre}, y tengo ${edad} años.`;
 console.log(mensaje);
 
-//analisis de resultados
+//analisis de resultados parte 2
 let resultado1 = (3 - 2) * (10 / 2);  //el rersultado es 5
 console.log("resultado1: ", resultado1);
 
@@ -44,3 +45,22 @@ console.log("resultado2++: ", resultado2);
 //c
 resultado3++;
 console.log(resultado3); 
+
+//parte 3
+
+let texto = "El desarrollo web es lo maximo";
+
+console.log(texto.indexOf("es")); 
+
+console.log(texto.lastIndexOf("a")); 
+
+console.log(texto.includes("maximo")); 
+
+console.log(texto.replace("maximo", "increíble")); 
+
+console.log(texto.replaceAll("e", "E")); 
+
+console.log(texto.toUpperCase()); 
+
+console.log(texto.toLowerCase()); 
+
