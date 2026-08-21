@@ -33,3 +33,14 @@ console.log("resultado2: ", resultado2);
 
 let resultado3 = (3 - 2) * 10 / 2;  //el rersultado es 5
 console.log("resultado3: ", resultado3);
+
+//Imprima en consola
+//a
+resultado1--;
+console.log("resultado1--: ", resultado1); //el rersultado es 4
+//b
+resultado2++;
+console.log("resultado2++: ", resultado2);
+//c
+resultado3++;
+console.log(resultado3); 
