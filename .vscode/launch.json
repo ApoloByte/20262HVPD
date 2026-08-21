@@ -5,6 +5,12 @@
             "name": "http://127.0.0.1:3000/clase-2-javascript/yuliana-españa/index.html",
             "request": "launch",
             "url": "http://127.0.0.1:3000/clase-2-javascript/yuliana-españa/index.html"
+        },
+        {
+            "type": "msedge",
+            "name": "http://127.0.0.1:3000/clase-3-intro-javascript/index.html",
+            "request": "launch",
+            "url": "http://127.0.0.1:3000/clase-3-intro-javascript/index.html"
         }
     ]
 }
