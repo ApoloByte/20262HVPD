@@ -4,5 +4,14 @@ miElemento.innerHTML = " Hola Mundo!!!"
 
 let elementos = document.getElementsByClassName("mi-clase");
 console.log(elementos);
-elementos[0].style.color = "green";
-elementos[0].innerHTML = "Hola mundo!"
+for (let i = 0; i <elementos.length; i++) {
+	elementos[i].innerHTML = 'hola mundo ' + (i + 1);
+    elementos[i].style.color = "green";
+}
+
+let parrafos = document.getElementsByTagName('p');
+console.log(parrafos);
+for (let i = 0; i <parrafos.length; i++) {
+	parrafos[i].innerHTML = 'hola mundo ' + (i + 1);
+}
+
