@@ -7,4 +7,9 @@ elemento.innerHTML= "Hola Mundooo!!!";
 console.log(elemento); 
 
 //Tercer ejercicio
-elemento.style.color="green"
+elemento.style.color="blue"
+
+// 4to ejercicio colocar for
+let miClase= document.getElementById("mi-clase");
+miClase.innerHTML = "Hola mundo!"
+miClase.style.color = "Green"
