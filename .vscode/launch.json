@@ -11,6 +11,18 @@
             "name": "http://127.0.0.1:3000/clase-3-intro-javascript/index.html",
             "request": "launch",
             "url": "http://127.0.0.1:3000/clase-3-intro-javascript/index.html"
+        },
+        {
+            "type": "msedge",
+            "name": "http://127.0.0.1:3000/clase-4-javascript-2/victor-pinto/selectores-normales/index.html",
+            "request": "launch",
+            "url": "http://127.0.0.1:3000/clase-4-javascript-2/victor-pinto/selectores-normales/index.html"
+        },
+        {
+            "type": "msedge",
+            "name": "http://127.0.0.1:3000/clase-4-javascript-2/yuliana-espana/selectores-normales/index.html",
+            "request": "launch",
+            "url": "http://127.0.0.1:3000/clase-4-javascript-2/yuliana-espana/selectores-normales/index.html"
         }
     ]
 }
