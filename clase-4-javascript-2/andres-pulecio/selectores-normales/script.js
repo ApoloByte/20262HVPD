@@ -5,28 +5,25 @@ console.log(miElemento); // Muestra el elemento en la consola
 
 miElemento.innerHTML = "HOLA MUNDO!!!";
 
-// Cambiar el estilo de un elemento con id="mi-elemento"
-miElemento.style.color = "blue"; // Cambia el color del texto a azul
+// Cambiar el estilo de fondo de un elemento 
+miElemento.style.backgroundColor = "blue"; // Cambia el color del texto a azul
+
 //actividad 2
+let elementos = document.getElementsByClassName("mi-clase");
+
+for (let i = 0; i < elementos.length; i++) {
+    elementos[i].innerHTML = "Hola mundo"; // Cambia el contenido de cada elemento
+    elementos[i].style.color = "green"; // Cambia el color del texto
+}
 
 
-let elementoCasa = document.getElementById("mi-clase");
-
-elementoCasa.innerHTML = "HOLA CORAZON DE MELON!!!";
-
-elementoCasa.style.color = "green"; // Cambia el color del texto a verde
+//actividad 3
 
 
+let parrafos = document.getElementsByTagName("p");
 
-let miCasa = document.getElementById("mi-casa");
-
-miCasa.innerHTML = "Recuerdas aquella tarde";
-
-miCasa.style.color = "orange"; // Cambia el color del texto a naranja
-
-
-let miUniversidad = document.getElementById("mi-universidad");
-
-miUniversidad.innerHTML = "Sonreias tanto ";
-
-miUniversidad.style.color = "red"; // Cambia el color del texto a morado
+for (let i = 0; i < parrafos.length; i++) {
+    parrafos[i].innerHTML = "Hola mundo";
+    parrafos[i].style.backgroundColor = "yellow";
+    parrafos[i].style.border = "1px solid";
+}
