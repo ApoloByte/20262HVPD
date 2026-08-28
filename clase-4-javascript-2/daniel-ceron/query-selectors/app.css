@@ -4,6 +4,7 @@
 
 .negrita { font-weight: bold; }
 
-.destacado { border: 1px solid orange; }
+#elemento-destacar.destacado { border: 1px solid orange; }
+#elemento-destacar > .destacado { border: 1px solid orange; }
 
 .tareas li { margin-bottom: 5px; }
