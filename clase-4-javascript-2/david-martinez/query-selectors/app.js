@@ -18,3 +18,10 @@ IMG_ELEMENTS.forEach(elemento => {
 });
 
 
+const LI_ELEMENTS = document.querySelectorAll(".tareas li:nth-child(2n)");
+
+LI_ELEMENTS.forEach(elemento => {
+    elemento.style.fontWeight = "bold";
+    elemento.style.color = "red";
+});
+
