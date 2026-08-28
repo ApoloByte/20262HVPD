@@ -25,3 +25,10 @@ LI_ELEMENTS.forEach(elemento => {
     elemento.style.color = "red";
 });
 
+
+function inputSelectorUnchecked() {
+    const LI_ELEMENTS = document.querySelectorAll("input[type='checkbox']:not(:checked)");
+
+    LI_ELEMENTS.forEach(elemento => {
+        elemento.ariaChecked = "false";
+    });
