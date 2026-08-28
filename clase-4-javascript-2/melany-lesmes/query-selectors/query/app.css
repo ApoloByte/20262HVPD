@@ -9,6 +9,15 @@
 #elementos-destacar .destacado { border: 1px solid orange; }
 /*Hijo directo*/
 #elementos-destacar >.destacado { border: 1px solid rgb(255, 30, 0); }
+#elementos-destacar >.destacado ~ .destacado { border: 1px solid rgb(0, 255, 34); }
 #elementos-destacar >.destacado + .destacado { border: 1px solid rgb(0, 255, 34); }
+
+*{ color:aqua}
+body{
+    background-color: black;
+}
+.destacado { background: pink;}
 .tareas li { margin-bottom: 5px; }
+
+
 /*Entre mas general menor importancia*/
