@@ -23,5 +23,28 @@ console.log(resultado2++);
 resultado3++;
 console.log(resultado3++);
 
+let frase3 ="-------Ejercicio 7.2 --------------"
+console.log(frase3);
+let frase2 ="El desarrollo web es lo maximo";
+
+
+console.log(frase2.indexOf("web"));
+
+console.log(frase2.lastIndexOf("e"));
+
+console.log(frase2.includes("desarrollo"));
+
+
+
+console.log(frase2.replace("web", "software"));
+
+console.log(frase2.replaceAll("e", "E"));
+
+
+
+console.log(frase2.toUpperCase());
+console.log(frase2.toLowerCase());
+
+
 
 
