@@ -10,15 +10,15 @@
      LINK_ELEMENTS.forEach(elemento => {
        elemento.classList.add('activo')
      });
-     
+
      /*let enlaces = document.querySelectorAll('#menu a');
      enlaces.forEach(function(elemento) {
         elemento.classList.add('activo');
      });*/
 
-     let imagenes = document.querySelectorAll('img[alt]');
-      imagenes.forEach(function(imagen){
-        imagen.style.border = "3px solid blue";
+     const IMG_ELEMENTS = document.querySelectorAll('img[alt]');
+      IMG_ELEMENTS.forEach(elemento => {
+        elemento.style.border = "3px solid blue";
      });
      let itemsImpares = document.querySelectorAll('.tareas li:nth-child(odd)');
      console.log('Encontrados:', itemsImpares.length);
