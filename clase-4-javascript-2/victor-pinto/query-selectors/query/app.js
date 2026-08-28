@@ -26,3 +26,11 @@ LI_ELEMENTS.forEach(elemento => {
 });
 
 
+function inputSelectorUncheck(){
+    const LI_ELEMENTS = document.querySelectorAll('input[type="checkbox"]:checked');
+    
+    LI_ELEMENTS.forEach(elemento => {
+        elemento.checked=false;
+    });
+}
+
