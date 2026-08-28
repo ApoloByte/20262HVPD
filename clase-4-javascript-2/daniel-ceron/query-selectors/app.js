@@ -20,4 +20,12 @@ img_element.forEach(img => {
 const LI_ELEMENTS = document.querySelectorAll(".tareas")
 LI_ELEMENTS.forEach(documento => {
     documento.style.fontWeight = "bold"
+    documento.style.color = "purple"
 })
+
+function inputSelectorUncheck(){
+    const LI_ELEMENTS = document.querySelectorAll("input[type='checkbox']:checked")
+    LI_ELEMENTS.forEach(documento => {
+        documento.checked = false
+    })
+}
