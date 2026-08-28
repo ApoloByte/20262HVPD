@@ -13,3 +13,15 @@ let resultado3 = (3-2) * 10/2;
 console.log(resultado1);
 console.log(resultado2);
 console.log(resultado3);
+
+
+console.log(resultado1--);
+console.log(resultado1);// para ver si realmente disminuyó en 1. (de 5 a 4)
+
+console.log(resultado2++);
+
+resultado3++;
+console.log(resultado3++);
+
+
+
