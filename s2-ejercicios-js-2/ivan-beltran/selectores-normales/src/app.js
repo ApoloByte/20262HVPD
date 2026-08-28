@@ -9,3 +9,11 @@ for (const elemento of elementos) {
 	elemento.textContent = "Hola, mundo!";
 	elemento.style.color = "green";
 }
+
+const parrafos = document.getElementsByTagName("p");
+
+for (const parrafo of parrafos) {
+	parrafo.textContent = "Hola mundo";
+	parrafo.style.backgroundColor = "yellow";
+	parrafo.style.border = "1px solid";
+}
