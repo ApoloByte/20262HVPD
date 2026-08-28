@@ -12,4 +12,8 @@
 #Elementos-destacar > .destacado + .destacado { border: 1px solid green; }
 
 .tareas li { margin-bottom: 5px; }
-*{border: 1px solid aqua;}
+*{color:aqua;}
+body{
+    background-color:black;
+
+}

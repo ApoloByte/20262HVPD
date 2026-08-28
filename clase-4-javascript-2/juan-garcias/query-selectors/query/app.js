@@ -7,3 +7,8 @@ const LINKELEMENTS = document.querySelectorAll('#menu a');
 LINKELEMENTS.forEach(elemento => {
     elemento.classList.add('activo');
 });
+const IMGELEMENTS = document.querySelectorAll('img[alt]');
+
+IMGELEMENTS.forEach(elemento => {
+    elemento.style.border = '3px solid red';
+});
