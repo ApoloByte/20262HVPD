@@ -1,23 +1,48 @@
-.resaltado { background: yellow; }
+.resaltado {
+    background: yellow;
+}
 
-.activo { color: white; background: #0077cc; }
+.activo {
+    color: white;
+    background: #0077cc;
+}
 
-.negrita { font-weight: bold; }
+.negrita {
+    font-weight: bold;
+}
 
-/*Entre mas especifico el selector mayor importancia*/
-/*Elemento de cualquier generación*/
-#elementos-destacar .destacado { border: 1px solid orange; }
-/*Hijo directo*/
-#elementos-destacar >.destacado { border: 1px solid rgb(255, 30, 0); }
-#elementos-destacar >.destacado ~ .destacado { border: 1px solid rgb(0, 255, 34); }
-#elementos-destacar >.destacado + .destacado { border: 1px solid rgb(0, 255, 34); }
+.destacado{background-color: #ff56da;}
 
-*{ color:aqua}
-body{
+/* Cualquier descendencia */
+#elementos-destacar .destacado {
+    border: 1px solid pink;
+    background-color: chartreuse;
+
+}
+
+/* Hijo directo */
+#elementos-destacar>.destacado {
+    border: 1px solid red;
+}
+
+/* Siguiente Hermano */
+
+#elementos-destacar>.destacado~.destacado {
+    border: 1px solid blue;
+    color: red;
+}
+
+#elementos-destacar>.destacado+.destacado {
+    border: 1px solid green;
+}
+.tareas li {
+    margin-bottom: 5px;
+}
+
+* {
+    color: aqua;
+}
+
+body {
     background-color: black;
 }
-.destacado { background: pink;}
-.tareas li { margin-bottom: 5px; }
-
-
-/*Entre mas general menor importancia*/
