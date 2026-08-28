@@ -1,23 +1,45 @@
-.resaltado { background: yellow; }
+.resaltado {
+    background: yellow;
+}
 
-.activo { color: white; background: #0077cc; }
+.activo {
+    color: white;
+    background: #0077cc;
+}
 
-.negrita { font-weight: bold; }
+.negrita {
+    font-weight: bold;
+}
 
-#elementos-destacar .destacado { border: 1px solid pink; }
+/* Cualquier descendencia */
+#elementos-destacar .destacado {
+    border: 1px solid pink;
+}
 
-#elementos-destacar > .destacado { border: 1px solid red; }
+/* Hijo directo */
+#elementos-destacar>.destacado {
+    border: 1px solid red;
+}
 
-#elementos-destacar > .destacado ~ .destacado { border: 1px solid blue; }
-#elementos-destacar > .destacado + .destacado { 
-    border: 1px solid green; }
+/* Siguiente Hermano */
 
-.tareas li { margin-bottom: 5px; }
+#elementos-destacar>.destacado~.destacado {
+    border: 1px solid blue;
+    color: red;
+}
 
-*{
+#elementos-destacar>.destacado+.destacado {
+    border: 1px solid green;
+}
+
+.tareas li {
+    margin-bottom: 5px;
+}
+
+* {
     color: aqua;
 }
 
-body{
+body {
     background-color: black;
 }
