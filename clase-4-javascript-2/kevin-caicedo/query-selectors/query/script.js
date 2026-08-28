@@ -14,5 +14,9 @@ imagenesConAlt.forEach(img => {
     img.style.border = '3px solid blue'
 })
 
+const elementosImpares = document.querySelectorAll('.tareas li:nth-child(odd)');
+elementosImpares.forEach(li => {
+    li.style.fontWeight = 'bold';
+});
 
 
