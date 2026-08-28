@@ -11,9 +11,13 @@
     font-weight: bold;
 }
 
+.destacado{background-color: #ff56da !important;}
+
 /* Cualquier descendencia */
 #elementos-destacar .destacado {
     border: 1px solid pink;
+    background-color: chartreuse;
+
 }
 
 /* Hijo directo */
@@ -31,6 +35,7 @@
 #elementos-destacar>.destacado+.destacado {
     border: 1px solid green;
 }
+
 
 .tareas li {
     margin-bottom: 5px;
