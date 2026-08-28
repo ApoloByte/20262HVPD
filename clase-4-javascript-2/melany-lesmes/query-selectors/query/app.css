@@ -1,0 +1,14 @@
+.resaltado { background: yellow; }
+
+.activo { color: white; background: #0077cc; }
+
+.negrita { font-weight: bold; }
+
+/*Entre mas especifico el selector mayor importancia*/
+/*Elemento de cualquier generación*/
+#elementos-destacar .destacado { border: 1px solid orange; }
+/*Hijo directo*/
+#elementos-destacar >.destacado { border: 1px solid rgb(255, 30, 0); }
+#elementos-destacar >.destacado + .destacado { border: 1px solid rgb(0, 255, 34); }
+.tareas li { margin-bottom: 5px; }
+/*Entre mas general menor importancia*/
