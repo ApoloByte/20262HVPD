@@ -16,3 +16,13 @@ const IMG_ELEMENTS = document.querySelectorAll("img[alt]");
 IMG_ELEMENTS.forEach(elemento => {
     elemento.style.border = "3px solid blue";
 });
+
+
+const LI_ELEMENTS = document.querySelectorAll(".tareas li:nth-child(odd)");
+
+LI_ELEMENTS.forEach(elemento => {
+    elemento.style.fontWeight = "bold";
+    elemento.style.color = "red";
+});
+
+
