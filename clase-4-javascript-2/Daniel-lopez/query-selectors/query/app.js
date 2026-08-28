@@ -16,3 +16,11 @@ const IMG_ELEMENTS = document.querySelectorAll("img[alt]");
 IMG_ELEMENTS.forEach(elemento => {
     elemento.style.border = "3px solid blue";
 }); 
+
+const LI_ELEMENTS = document.querySelectorAll("li:nth-child(even)");
+
+LI_ELEMENTS.forEach(elemento => {
+    elemento.style.fontWeight = "bold";
+    elemento.style.color = "red";
+}); 
+
