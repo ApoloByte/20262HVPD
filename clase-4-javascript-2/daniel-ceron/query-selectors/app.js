@@ -1,11 +1,23 @@
-let documento = document.getElementsByClassName("destacado")
+let documento = document.getElementsByClassName("destacado");
 
 for (let i = 0; i < documento.length; i++) {
-    documento[i].style.backgroundColor = 'yellow';
-    documento[i].style.fontWeight = 'bold';
+    documento[i].style.backgroundColor = "yellow";
+    documento[i].style.fontWeight = "bold";
 }
 
-let enlaces = document.querySelector("#menu a")
-enlaces.classList.add("activo")
+let enlaces = document.querySelectorAll("#menu a");
 
-console.log(enlaces)
+enlaces.forEach(enlace => {
+    enlace.classList.add("activo");
+});
+
+const img_element = document.querySelectorAll("img[alt]");
+
+img_element.forEach(img => {
+    img.style.border = "8px solid blue";
+});
+
+const LI_ELEMENTS = document.querySelectorAll(".tareas")
+LI_ELEMENTS.forEach(documento => {
+    documento.style.fontWeight = "bold"
+})
