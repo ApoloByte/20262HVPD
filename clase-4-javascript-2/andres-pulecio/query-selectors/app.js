@@ -1,4 +1,5 @@
-     let destacados = document.querySelectorAll('.destacado');
+
+     let destacados = document.querySelectorAll('elementos-destacar');
      destacados.forEach(function(elemento) {
         elemento.style.backgroundColor = 'yellow';
      });
@@ -6,3 +7,21 @@
      enlaces.forEach(function(elemento) {
         elemento.classList.add('activo');
      });
+     let imagenes = document.querySelectorAll('img[alt]');
+      imagenes.forEach(function(imagen){
+        imagen.style.border = "3px solid blue";
+     });
+     let itemsImpares = document.querySelectorAll('.tareas li:nth-child(odd)');
+     console.log('Encontrados:', itemsImpares.length);
+     itemsImpares.forEach(function(li){
+         li.style.fontWeight = "bold";
+     });
+     function desmarcarCheckboxes() {
+    let marcados = document.querySelectorAll('input[type="checkbox"]:checked');
+    marcados.forEach(function(checkbox) {
+        checkbox.checked = false;
+    });
+}
+
+// Uso:
+   document.getElementById('ejercicio5').addEventListener('click', desmarcarCheckboxes);

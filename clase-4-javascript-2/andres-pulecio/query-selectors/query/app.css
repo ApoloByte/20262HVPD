@@ -1,0 +1,25 @@
+.resaltado { background: pink; }
+
+.activo { color: white; background: #0077cc; }
+
+.negrita { font-weight: bold; }
+
+/* Cualquier descendencia*/
+#elementos-destacar .destacado { border: 1px solid pink; }
+
+/*Hijo directo*/
+#elementos-destacar > .destacado { border: 1px solid red; }
+
+/*Hijo directo*/
+#elementos-destacar > .destacado ~ .destacado { border: 1px solid green; }
+#elementos-destacar > .destacado + .destacado { border: 1px solid green; }
+
+
+.tareas li { margin-bottom: 5px; }
+
+* {
+    color : aqua;
+}
+body{
+    background-color: black;
+}
