@@ -1,0 +1,26 @@
+.resaltado { background: yellow; }
+
+.activo { color: white; background: #0077cc; }
+
+.negrita { font-weight: bold; }
+
+/* Cualquier descendencia*/
+
+#elementos-destacar .destacado{border: 1px solid rgb(23, 216, 77);}
+
+/* Hijo directo */
+
+#elementos-destacar > .destacado { border: 1px solid rgb(241, 11, 46); }
+
+/* Siguiente Hermano*/
+
+#elementos-destacar > .destacado ~ .destacado { border: 1px solid rgb(19, 12, 225); }
+
+#elementos-destacar > .destacado + .destacado { border: 1px solid rgb(15, 93, 37); }
+
+
+.tareas li { margin-bottom: 5px; }
+
+* {color:1px solid aqua}
+
+body{color: black}
