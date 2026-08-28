@@ -1,0 +1,10 @@
+.resaltado { background: yellow; }
+
+.activo { color: rgb(255, 35, 35); background: #0077cc; }
+
+.negrita { font-weight: bold; }
+
+#Elementos-destacar .destacado { border: 1px solid red; }
+#Elementos-destacar>.destacado { border: 1px solid blue; }
+
+.tareas li { margin-bottom: 5px; }
