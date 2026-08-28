@@ -5,8 +5,6 @@ for (let i = 0; i < documento.length; i++) {
     documento[i].style.fontWeight = 'bold';
 }
 
-console.log(elementosA);
-
 let enlaces = document.querySelector("#menu a")
 enlaces.classList.add("activo")
 
