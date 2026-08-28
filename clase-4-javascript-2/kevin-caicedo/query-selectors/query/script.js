@@ -19,4 +19,10 @@ elementosImpares.forEach(li => {
     li.style.fontWeight = 'bold';
 });
 
+function desmarcarCheckbox() {
+    const checkboxes = document.querySelectorAll('input[type="checkbox"]:checked');
+    checkboxes.forEach(checkbox => {
+        checkbox.checked = false;
+    });
+}
 
