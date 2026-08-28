@@ -20,11 +20,15 @@
       IMG_ELEMENTS.forEach(elemento => {
         elemento.style.border = "3px solid blue";
      });
-     let itemsImpares = document.querySelectorAll('.tareas li:nth-child(odd)');
-     console.log('Encontrados:', itemsImpares.length);
-     itemsImpares.forEach(function(li){
-         li.style.fontWeight = "bold";
+
+
+     const LI_ELEMENTS = document.querySelectorAll('.tareas li:nth-child(odd)');
+     console.log('Encontrados:', LI_ELEMENTS.length);
+     LI_ELEMENTS.forEach(elemento =>{
+         elemento.style.fontWeight = "bold";
+         elemento.style.color = "red";
      });
+
      function desmarcarCheckboxes() {
     let marcados = document.querySelectorAll('input[type="checkbox"]:checked');
     marcados.forEach(function(checkbox) {
