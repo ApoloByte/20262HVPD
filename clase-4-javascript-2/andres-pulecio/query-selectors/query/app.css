@@ -1,25 +1,45 @@
-.resaltado { background: pink; }
+.resaltado {
+    background: yellow;
+}
 
-.activo { color: white; background: #0077cc; }
+.activo {
+    color: white;
+    background: #0077cc;
+}
 
-.negrita { font-weight: bold; }
+.negrita {
+    font-weight: bold;
+}
 
-/* Cualquier descendencia*/
-#elementos-destacar .destacado { border: 1px solid pink; }
+/* Cualquier descendencia */
+#elementos-destacar .destacado {
+    border: 1px solid pink;
+}
 
-/*Hijo directo*/
-#elementos-destacar > .destacado { border: 1px solid red; }
+/* Hijo directo */
+#elementos-destacar>.destacado {
+    border: 1px solid red;
+}
 
-/*Hijo directo*/
-#elementos-destacar > .destacado ~ .destacado { border: 1px solid green; }
-#elementos-destacar > .destacado + .destacado { border: 1px solid green; }
+/* Siguiente Hermano */
 
+#elementos-destacar>.destacado~.destacado {
+    border: 1px solid blue;
+    color: red;
+}
 
-.tareas li { margin-bottom: 5px; }
+#elementos-destacar>.destacado+.destacado {
+    border: 1px solid green;
+}
+
+.tareas li {
+    margin-bottom: 5px;
+}
 
 * {
-    color : aqua;
+    color: aqua;
 }
-body{
+
+body {
     background-color: black;
 }
