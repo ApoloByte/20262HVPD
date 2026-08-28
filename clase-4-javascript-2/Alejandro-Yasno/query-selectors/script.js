@@ -16,3 +16,13 @@ imagen.forEach( img => {
 const ElementosLi = document.querySelectorAll('.tareas li:nth-child(odd)');
 ElementosLi.forEach( li => {
 	li.style.fontWeight = "bold"  });
+
+
+function desmarcarCheckbox() {
+    const checkboxs = document.querySelectorAll('input[type="checkbox"]:checked');
+    checkboxs.forEach(checkbox => {
+        checkbox.checked = false;
+    });
+}
+
+desmarcarCheckbox();
