@@ -20,8 +20,8 @@ IMG_ELEMENTS.forEach(elemento => {
 const LI_ELEMENTS =document.querySelectorAll(".tareas li:nth-child(odd)");
 
 LI_ELEMENTS.forEach(elemento => {
-    elemento.style.fontWeight = 'bold';
-    elemto.style.color= "red";
+    elemento.style.fontWeight = "bold";
+    elemento.style.color = "red";
 });
 
 function inputSelectorUnCheck() {
