@@ -19,3 +19,16 @@ boton3.addEventListener('click', () => {
     });
 
 });
+const boton4 = document.getElementById('ejercicio4');
+
+boton4.addEventListener('click', () => {
+  const items = document.querySelectorAll('.tareas li');
+
+  items.forEach((li, indice) => {
+    const posicion = indice + 1;
+
+    if (posicion % 2 !== 0) {
+      li.style.fontWeight = 'bold';
+    }
+  });
+});
