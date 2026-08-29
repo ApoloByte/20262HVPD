@@ -32,3 +32,13 @@ boton4.addEventListener('click', () => {
     }
   });
 });
+function desmarcarCheckboxes() {
+  const marcados = document.querySelectorAll('input[type="checkbox"]:checked');
+
+  marcados.forEach((checkbox) => {
+    checkbox.checked = false;
+  });
+}
+
+const boton5 = document.getElementById('ejercicio5');
+boton5.addEventListener('click', desmarcarCheckboxes);
