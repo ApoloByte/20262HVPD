@@ -35,5 +35,3 @@ function inputSelectorUncheck() {
         elemento.checked = false;
     });
 }
-
-// Uso:
