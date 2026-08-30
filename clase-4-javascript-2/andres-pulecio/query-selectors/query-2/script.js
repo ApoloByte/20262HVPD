@@ -4,4 +4,15 @@ document.getElementById('btnAgregar').addEventListener('click', function(){
 
     let contenedor = document.getElementById('lista-tareas');
     let lista = contenedor.querySelector('ul');
+
+    //1. crear el nuevo <li> con el texto "Tarea X"
+    let nuevoItem = document.createElement('li');
+    nuevoItem.textContent = "Tarea" + contador;
+    //2. Si aun no existe el <ul>, hay q crearlo
+    if(!lista){
+        lista = document.createElement('ul');
+        contenedor.appendChild(lista);
+    } 
+    //3. Lo anadimos al <ul> con appendChild
+    lista.appendChild(nuevoItem);
 });
