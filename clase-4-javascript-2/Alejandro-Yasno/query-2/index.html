@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lista de tareas</title>
+    
+</head>
+<body>
+    <div id="listaTareas"></div>
+    <button id="botonAgregar">Agregar</button>
+    <script>
+        let contador = 0;
+        const contenedor = document.getElementById("listaTareas");
+        const boton = document.getElementById("botonAgregar");
+
+        boton.addEventListener("click", function() {
+            
+            contador++;
+             const nuevaTarea = document.createElement("li");
+             nuevaTarea.textContent = " Tarea " + contador;
+
+             let lista = contenedor.querySelector("ul");
+
+             if (!lista) {
+              lista = document.createElement("ul");
+              contenedor.appendChild(lista);
+             }
+             lista.appendChild(nuevaTarea);
+
+             
+    });
+    </script>
+</body>
+</html>
