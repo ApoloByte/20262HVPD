@@ -1,3 +1,4 @@
+// Punto 1-2-3 objeto math
 let numeroAleatorio = Math.random() * 10;
 document.getElementById("numero1").textContent = "Número aleatorio entre 0 y 10: " + numeroAleatorio;
 
@@ -9,3 +10,4 @@ function numeroAleatorioEntre(minimo, maximo) {
 let resultado = numeroAleatorioEntre(5, 20);
 
 document.getElementById("numero3").textContent = "Número entero entre 5 y 20: " + resultado;
+
