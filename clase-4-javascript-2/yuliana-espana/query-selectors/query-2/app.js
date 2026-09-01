@@ -13,3 +13,5 @@ boton.addEventListener('click', function () {
         lista = document.createElement('ul');
         div.appendChild(lista);
     }
+        lista.appendChild(item);
+});
