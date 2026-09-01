@@ -10,3 +10,9 @@ LINK_ELEMENT.forEach(elemento => {
     elemento.classList.add('activo')
 });
 
+
+const IMG_ELEMENTS = document.querySelectorAll("img[alt]");
+
+IMG_ELEMENTS.forEach(elemento => {
+    elemento.style.border = "3px solid blue";
+});
