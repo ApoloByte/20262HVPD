@@ -11,3 +11,7 @@ console.log(resultado2++);
 resultado3++;
 console.log(resultado3);
 
+let variable = "El desarrollo web es lo máximo";
+
+//Metodos busqueda
+console.log(variable.indexOf("s"));
