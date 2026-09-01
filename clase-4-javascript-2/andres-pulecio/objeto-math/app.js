@@ -85,19 +85,19 @@ console.log("Segunda Parte");
 
 console.log("Ejercicio 2.a: 4^3");
 
-console.log("Resultado: " + Math.pow(4,3));
+console.log("Resultado: " + Math.pow(4, 3));
 
 console.log("----------------------------");
 
 console.log("Ejercicio 2.b: 5^2");
 
-console.log("Resultado: " + Math.pow(5,2));
+console.log("Resultado: " + Math.pow(5, 2));
 
 console.log("----------------------------");
 
 console.log("Ejercicio 2.c: 5^-2");
 
-console.log("Resultado: " + Math.pow(5,-2));
+console.log("Resultado: " + Math.pow(5, -2));
 
 console.log("----------------------------");
 
