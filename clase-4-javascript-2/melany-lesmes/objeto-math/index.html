@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    <h2>--- NUMEROS ALEATORIOS ---</h2>
+    
+    <p id="numero-aleatorio">....</p>
+    <button id="aleatorio" onclick="generarNumeroAleatorio()">Generar Número Aleatorio</button>
+    
+    <p id="numero-entero">....</p>
+    <button id="entero" onclick="generarNumeroAleatorioEntero()">Generar Número Entero Aleatorio</button>
+    
+    <p id="numero-rango">....</p>
+    <button id="aleatorio-min-max" onclick="generarNumeroAleatorioRango(5,20)">Generar Número Aleatorio entre 5 y 20</button>
+
+    <h2>--- POTENCIAS ---</h2>
+
+    <p id="potencia-1">....</p>
+    <button id="potencia-1" onclick="generarPotenciaUno(4, 3)">Generar Potencia (4^3)</button>
+    
+    <p id="potencia-2">....</p>
+    <button id="potencia-2" onclick="generarPotenciaDos(5, 2)">Generar Potencia (5^2)</button>
+    
+    <p id="potencia-3">....</p>
+    <button id="potencia-3" onclick="generarPotenciaTres(5, -2)">Generar Potencia (5^-2)</button>
+
+    <h2>--- RAICES CUADRADAS ---</h2>
+
+    <p id="raiz-1">....</p>
+    <button onclick="generarRaizUno(9)">Generar Raíz (9)</button>
+
+    <p id="raiz-2">....</p>
+    <button onclick="generarRaizDos(64)">Generar Raíz (64)</button>
+
+    <p id="raiz-3">....</p>
+    <button onclick="generarRaizTres(25)">Generar Raíz (25)</button>
+    <script src="app.js"> </script>
+</body>
+</html>
