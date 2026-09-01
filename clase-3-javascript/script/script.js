@@ -1,9 +1,6 @@
-let resultado1 = (3 - 2) * (10 / 2)
-console.log(resultado1)
-console.log(resultado1++)
+//Orden de las operaciones.
+// (Paréntesis-Exponentes- Multiplicación- División- Adición- SUstracción)
 
-let resultado2 = 3 - 2 * 10 / 2
-console.log(resultado2)
-
-let resultado3 = (3 -  2) * 10 / 2;
-console.log(resultado3)
+let resultado1 = (3-2) * (10/2); //RESULTADO: 5
+let resultado2 = 3-2 * 10/2; //RESULTADO: -7
+let resultado3 = (3-2) * 10/2; //RESULTADO: 5
