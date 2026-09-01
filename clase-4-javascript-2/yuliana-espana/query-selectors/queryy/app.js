@@ -23,3 +23,11 @@ LI_ELEMENTS.forEach(elemento => {
     elemento.style.fontWeight = "bold";
     elemento.style.color = "red";
 });
+
+function inputSelectorUncheck(){
+    const LI_ELEMENTS = document.querySelectorAll('input[type="checkbox"]:checked');
+    
+    LI_ELEMENTS.forEach(elemento => {
+        elemento.checked=false;
+    });
+}
