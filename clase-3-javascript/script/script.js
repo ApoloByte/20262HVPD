@@ -15,4 +15,6 @@ console.log(resultado3);
 let variable = "El desarrollo web es lo máximo";
 
 //Metodos busqueda
-console.log(variable.indexOf("s"));
+console.log("IndexOf(s): "+variable.indexOf("s"));
+console.log("LastIndexOf(x): "+variable.lastIndexOf("x"));
+console.log("Include(TDS): "+variable.includes("TDS"));
