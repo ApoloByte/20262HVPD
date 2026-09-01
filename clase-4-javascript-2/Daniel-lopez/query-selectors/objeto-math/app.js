@@ -23,5 +23,5 @@ console.log("5^2 =", Math.pow(5, 2));
 console.log("5^-2 =", Math.pow(5, -2)); 
 
 console.log("Raíz cuadrada de 9:", Math.sqrt(9));   
-console.log("Raíz cuadrada de 64:", Math.sqrt(64)); 
+console.log("Raíz cuadrada de 64:", Math.sqrt(64)); g
 console.log("Raíz cuadrada de 25:", Math.sqrt(25));
