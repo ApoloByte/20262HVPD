@@ -1,0 +1,38 @@
+.resaltado {
+    background: yellow;
+}
+.activo {
+    color: white;
+    background: #0077cc;
+}
+.negrita {
+    font-weight: bold;
+}
+
+/* seria Cualquier descendencia */
+#elementos-destacar .destacado {
+    border: 1px solid pink;
+}
+
+/* seria el hijo directo */
+#elementos-destacar>.destacado {
+    border: 1px solid red;
+}
+
+/* es el siguiente hermano */
+#elementos-destacar>.destacado~.destacado {
+    border: 1px solid blue;
+    color: red;
+}
+#elementos-destacar>.destacado+.destacado {
+    border: 1px solid green;
+}
+.tareas li {
+    margin-bottom: 5px;
+}
+* {
+    color: aqua;
+}
+body {
+    background-color: black;
+}
