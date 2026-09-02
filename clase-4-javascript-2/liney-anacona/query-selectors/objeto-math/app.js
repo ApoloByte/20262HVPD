@@ -44,3 +44,36 @@ function generarPotenciaTres(base, exponente){
         "Floor: " + Math.floor(potencia) + "<br>" +
         "Ceil: " + Math.ceil(potencia);
 }
+
+function generarRaizUno(numero) {
+    const parrafo_resultado = document.getElementById("raizUno");
+    const raiz = Math.sqrt(numero);
+
+    parrafo_resultado.innerHTML = 
+        "= " + raiz + "<br>" +
+        "round: " + Math.round(raiz) + "<br>" +
+        "floor: " + Math.floor(raiz) + "<br>" +
+        "ceil: " + Math.ceil(raiz);
+}
+
+function generarRaizDos(numero) {
+    const parrafo_resultado = document.getElementById("raizDos");
+     const raiz = Math.sqrt(numero);
+
+    parrafo_resultado.innerHTML = 
+        "= " + raiz + "<br>" +
+        "round: " + Math.round(raiz) + "<br>" +
+        "floor: " + Math.floor(raiz) + "<br>" +
+        "ceil: " + Math.ceil(raiz);
+}
+
+function generarRaizTres(numero) {
+    const parrafo_resultado = document.getElementById("raizTres");
+     const raiz = Math.sqrt(numero);
+
+    parrafo_resultado.innerHTML = 
+        "= " + raiz + "<br>" +
+        "round: " + Math.round(raiz) + "<br>" +
+        "floor: " + Math.floor(raiz) + "<br>" +
+        "ceil: " + Math.ceil(raiz);
+}
