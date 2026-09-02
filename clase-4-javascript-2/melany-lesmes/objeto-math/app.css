@@ -1,0 +1,20 @@
+button:focus{
+       background-color: #4EA8DE;
+        color: #5E60CE;
+        font-weight: bold;
+}
+
+body{
+    background-color: #7C4DFF;
+    text-align: center;
+}
+
+p{
+    color:#CE93D8;
+    font-weight: bold;
+}
+
+h2{
+    color:#dcb0e4;
+    font-weight: bold;
+}
