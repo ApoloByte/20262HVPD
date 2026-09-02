@@ -16,3 +16,21 @@ const IMG_ELEMENTS = document.querySelectorAll("img[alt]");
 IMG_ELEMENTS.forEach(elemento => {
     elemento.style.border = "3px solid blue";
 });
+
+
+const LI_ELEMENTS = document.querySelectorAll(".tareas li:nth-child(odd)");
+
+LI_ELEMENTS.forEach(elemento => {
+    elemento.style.fontWeight = "bold";
+    elemento.style.color = "red";
+});
+
+
+function inputSelectorUncheck(){
+    const LI_ELEMENTS = document.querySelectorAll('input[type="checkbox"]:checked');
+    
+    LI_ELEMENTS.forEach(elemento => {
+        elemento.checked=false;
+    });
+}
+
