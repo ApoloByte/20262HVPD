@@ -4,6 +4,8 @@ ELEMENTOS.forEach(elemento => {
     elemento.style.backgroundColor = "yellow";
     elemento.style.border = "8px solid #ffa263;";
 });
+<<<<<<< HEAD
+=======
 
 const LINK_ELEMENTS = document.querySelectorAll("#menu a");
 
@@ -34,3 +36,4 @@ function inputSelectorUncheck(){
     });
 }
 
+>>>>>>> d8a6da079a0a2d26f919aa5f7e5e20ee56a3b511
