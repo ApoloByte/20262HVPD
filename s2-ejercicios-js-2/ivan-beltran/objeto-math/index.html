@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Objeto Math</title>
+</head>
+<body>
+
+    <h1>Objeto Math</h1>
+
+    <p>Investigue acerca del objeto Math y realice los siguientes ejercicios:</p>
+
+    <ol>
+        <li>
+            <p>Generar un número aleatorio entre 0 y 10.</p>
+            <button id="generar-decimal">Generar número</button>
+            <span id="resultado-decimal"></span>
+        </li>
+        <li>
+            <p>Generar un número entero aleatorio entre 0 y 10.</p>
+            <button id="generar-entero">Generar número</button>
+            <span id="resultado-entero"></span>
+        </li>
+        <li>
+            <p>Generar un número entero aleatorio entre dos valores.</p>
+            <label for="minimo">Mínimo:</label>
+            <input id="minimo" type="number" value="1">
+            <label for="maximo">Máximo:</label>
+            <input id="maximo" type="number" value="10">
+            <button id="generar-rango">Generar número</button>
+            <span id="resultado-rango"></span>
+        </li>
+    </ol>
+
+    <h2>Funciones de redondeo</h2>
+
+    <label for="numero-redondeo">Número:</label>
+    <input id="numero-redondeo" type="number" value="4.7" step="0.1">
+    <button id="calcular-redondeos">Calcular redondeos</button>
+    <p id="resultado-redondeos"></p>
+
+    <h2>Potencias con Math</h2>
+
+    <button id="calcular-potencias">Calcular potencias</button>
+    <p id="resultado-potencias"></p>
+
+    <h2>Raíces cuadradas</h2>
+
+    <button id="calcular-raices">Calcular raíces</button>
+    <p id="resultado-raices"></p>
+
+    <script src="src/app.js"></script>
+</body>
+</html>
