@@ -47,3 +47,19 @@ resultado3++;
 console.log(`Resultado 1 después de --: ${resultado1}`);
 console.log(`Resultado 2 después de ++: ${resultado2}`);
 console.log(`Resultado 3 después de ++: ${resultado3}`);
+
+let frase = "El desarrollo web es lo máximo";
+
+// Métodos de búsqueda
+console.log(`¿Contiene "web"? ${frase.includes("web")}`);
+console.log(`Posición de "web": ${frase.indexOf("web")}`);
+console.log(`¿Empieza con "El"? ${frase.startsWith("El")}`);
+console.log(`¿Termina en "máximo"? ${frase.endsWith("máximo")}`);
+
+// Métodos de reemplazo
+console.log(`Reemplazo: ${frase.replace("web", "desarrollo")}`);
+console.log(`ReplaceAll: ${frase.replaceAll("o", "0")}`);
+
+// Modificación del casing
+console.log(`Mayúsculas: ${frase.toUpperCase()}`);
+console.log(`Minúsculas: ${frase.toLowerCase()}`);
