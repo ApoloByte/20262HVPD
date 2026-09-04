@@ -66,20 +66,20 @@ let resultado = 0 / 0;
 
 //operadores aritmeticos
 let x = 10;
-x+=5; //x ahora es 15
+x += 5; //x ahora es 15
 
 let y = 20;
-y-=5; //y ahora es 15
+y -= 5; //y ahora es 15
 
 let t = 9;
-t*=2; //t ahora es 18
+t *= 2; //t ahora es 18
 
 let r = 10;
-r/=2; //r ahora es 5
+r /= 2; //r ahora es 5
 
 //calcula el modulo de 10 entre 3 y lo asigna a la variable z
 let z = 10;
-z%=3; //z ahora es 1
+z %= 3; //z ahora es 1
 
 
 //operadores incremento y decremento
