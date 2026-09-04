@@ -37,3 +37,13 @@ let resultado3 = (3 - 2) * 10 / 2;
 console.log(`Resultado 1: ${resultado1}`);
 console.log(`Resultado 2: ${resultado2}`);
 console.log(`Resultado 3: ${resultado3}`);
+
+//1. `resultado1--` 
+//2. `resultado2++`
+resultado1--;
+resultado2++;
+resultado3++;
+
+console.log(`Resultado 1 después de --: ${resultado1}`);
+console.log(`Resultado 2 después de ++: ${resultado2}`);
+console.log(`Resultado 3 después de ++: ${resultado3}`);
