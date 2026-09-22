@@ -14,7 +14,7 @@ const users = [
 		email: "mario.gmail.com"
 	},
 ];
-//express que va a usar cors para las rutas definidas
+//express que va a usar cors para  autorizar las rutas definidas
 app.use(cors());
 app.get('/users', (req, res) => {
 	res.json(users); // envía la lista al cliente
