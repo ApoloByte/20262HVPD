@@ -8,10 +8,22 @@
   },
   "repository": {
     "type": "git",
+<<<<<<< HEAD
     "url": "git@carlos-bucheli.github.com:ApoloByte/20262HVPD.git"
+=======
+    "url": "git@victor-pinto.github.com:ApoloByte/20262HVPD.git"
+>>>>>>> 92fc8cf625e0761878a5875a66a5959cd5067e36
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+<<<<<<< HEAD
   "type": "commonjs"
+=======
+  "type": "commonjs",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1"
+  }
+>>>>>>> 92fc8cf625e0761878a5875a66a5959cd5067e36
 }
